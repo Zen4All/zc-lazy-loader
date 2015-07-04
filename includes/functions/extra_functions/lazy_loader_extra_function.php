@@ -1,5 +1,4 @@
-<?
-
+<?php
 //lazyload jQuery image loader mod by Delia Wilson Lunsford, 2014
   function zen_image_lazy($src, $alt = '', $width = '', $height = '', $parameters = '') {
     global $template_dir;
@@ -61,7 +60,6 @@
         return false;
       }
     }
-
 
     if (zen_not_null($width) && zen_not_null($height) and file_exists($src)) {
 //      $image .= ' width="' . zen_output_string($width) . '" height="' . zen_output_string($height) . '"';
